@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon ./bin/www",
-    "start": "sucrase-node ./bin/www",
-    "build": "sucrase ./src -d ./dist --transforms typescript, imports"
+    "start": "sucrase-node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",
