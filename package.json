@@ -1,0 +1,25 @@
+{
+  "name": "tinpet",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ./bin/www",
+    "start": "sucrase-node ./bin/www",
+    "build": "sucrase ./src -d ./dist --transforms typescript, imports"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1",
+    "sucrase": "^3.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.2"
+  }
+}
