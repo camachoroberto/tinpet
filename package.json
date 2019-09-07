@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon ./bin/www",
-    "start": "sucrase-node ./bin/www"
+    "dev": "nodemon ./src/server.js",
+    "start": "sucrase-node ./src/server.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.4",
